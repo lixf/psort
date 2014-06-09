@@ -11,11 +11,12 @@ import psort
 import getopt
 import sys
 #include Lumiverse here
-import lumiversepython
+import lumiversepython as lum
 
 class Bridge:
     # added to support bridge mode
-    remote = 
+    rigBool = False 
+    rig = []
 
     master = []
 
@@ -39,7 +40,9 @@ class Bridge:
     lastslider = 'none'
 
     def __init__(self, master, count = 0, subdivisions = 1,
-                 border = 0):
+                 border = 0, rigBool = False, rig = []):
+        self.rigBool = rigBool
+        self.rig = rig
         self.master = master
         if count > 0:
             self.count = count
@@ -171,11 +174,15 @@ class Bridge:
                                       saturation = saturation,
                                       value = value,
                                       subdivisions = self.subdivisions,
-                                      bordercolor = self.bordercolor)
+                                      bordercolor = self.bordercolor,
+                                      rigBool = self.rigBool,
+                                      rig = self.rig)
         else:
             self.sorter = psort.Psort(self.count,
                                       subdivisions = self.subdivisions,
-                                      bordercolor = self.bordercolor)
+                                      bordercolor = self.bordercolor,
+                                      rigBool = self.rigBool,
+                                      rig = self.rig)
         self.sorteractive = True
 
     def run(self):
@@ -256,7 +263,9 @@ class Bridge:
                                           saturation = saturation,
                                           value = value,
                                           subdivisions = self.subdivisions,
-                                          bordercolor = self.bordercolor)
+                                          bordercolor = self.bordercolor,
+                                          rigBool = self.rigBool,
+                                          rig = self.rig)
         elif self.lastslider == 'saturation':
             val = self.sslider.get()
             self.sorter.set_spectrum(s = val / 100.0)
@@ -277,7 +286,7 @@ def run(name, args):
     cols = 90
     border = 0
     subdivisions = 1
-    optlist, args = getopt.getopt(args, 'hc:s:b:')
+    optlist, args = getopt.getopt(args, 'hc:r:s:b:')
     for (opt,val) in optlist:
         if opt == '-h':
             usage(name)
@@ -288,6 +297,11 @@ def run(name, args):
             border = float(val)
         elif opt == '-s':
             subdivisions = int(val)
+        elif opt == '-r':
+            rigBool = True
+            rig = lum.Rig(val)
+            rig.init()
+            rig.run()
         else:
             usage(name)
             return
@@ -297,7 +311,7 @@ def run(name, args):
         print "Subdivide rectangle into % d subrectangles.  Border color = %f" % (subdivisions, border)
     root = Tk()
 
-    bridge = Bridge(root, cols, subdivisions, border)
+    bridge = Bridge(root, cols, subdivisions, border, rigBool, rig)
     try:
         root.mainloop()
     except:

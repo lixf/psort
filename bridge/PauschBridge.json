@@ -1,0 +1,4315 @@
+{
+	"version" : "1.0",
+	"refreshRate" : 60,
+	"devices" : {
+		"63" : {
+			"channel" : 26,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P26",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"13" : {
+			"channel" : 25,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P25",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"14" : {
+			"channel" : 26,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P26",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"64" : {
+			"channel" : 27,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P27",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"15" : {
+			"channel" : 27,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P27",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"65" : {
+			"channel" : 28,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P28",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"16" : {
+			"channel" : 28,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P28",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"66" : {
+			"channel" : 29,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P29",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"17" : {
+			"channel" : 29,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P29",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"67" : {
+			"channel" : 30,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P30",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"18" : {
+			"channel" : 30,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P30",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"68" : {
+			"channel" : 31,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P31",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"19" : {
+			"channel" : 31,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P31",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"69" : {
+			"channel" : 32,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P30",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"20" : {
+			"channel" : 32,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P32",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"70" : {
+			"channel" : 33,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P33",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"21" : {
+			"channel" : 33,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P33",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"71" : {
+			"channel" : 34,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P34",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"22" : {
+			"channel" : 34,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P34",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"72" : {
+			"channel" : 35,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P35",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"23" : {
+			"channel" : 35,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P35",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"73" : {
+			"channel" : 36,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P36",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"24" : {
+			"channel" : 36,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P36",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"74" : {
+			"channel" : 37,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P37",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"25" : {
+			"channel" : 37,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P37",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"75" : {
+			"channel" : 38,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P38",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"26" : {
+			"channel" : 38,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P38",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"76" : {
+			"channel" : 39,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P39",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"27" : {
+			"channel" : 39,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P39",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"77" : {
+			"channel" : 40,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P40",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"28" : {
+			"channel" : 40,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P40",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"78" : {
+			"channel" : 41,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P41",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"29" : {
+			"channel" : 41,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P41",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"79" : {
+			"channel" : 42,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P42",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"30" : {
+			"channel" : 42,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P42",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"80" : {
+			"channel" : 43,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P43",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"31" : {
+			"channel" : 43,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P43",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"81" : {
+			"channel" : 44,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P44",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"32" : {
+			"channel" : 44,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P44",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"82" : {
+			"channel" : 45,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P45",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"33" : {
+			"channel" : 45,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P45",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"83" : {
+			"channel" : 46,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P46",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"34" : {
+			"channel" : 46,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P46",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"84" : {
+			"channel" : 47,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P47",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"35" : {
+			"channel" : 47,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P47",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"86" : {
+			"channel" : 48,
+			"type" : "CG3",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P48",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"38" : {
+			"channel" : 48,
+			"type" : "CG3",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P48",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"85" : {
+			"channel" : 49,
+			"type" : "CG2",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P49",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"39" : {
+			"channel" : 49,
+			"type" : "CG3",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P49",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"87" : {
+			"channel" : 50,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P50",
+				"location" : "purnell end",
+				"position" : "bottom"
+			}
+		},
+		"40" : {
+			"channel" : 50,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P50",
+				"location" : "purnell end",
+				"position" : "top"
+			}
+		},
+		"88" : {
+			"channel" : 51,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P51",
+				"location" : "purnell end",
+				"position" : "bottom"
+			}
+		},
+		"41" : {
+			"channel" : 51,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P51",
+				"location" : "purnell end",
+				"position" : "top"
+			}
+		},
+		"89" : {
+			"channel" : 52,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P52",
+				"location" : "purnell end",
+				"position" : "bottom"
+			}
+		},
+		"42" : {
+			"channel" : 52,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P52",
+				"location" : "purnell end",
+				"position" : "top"
+			}
+		},
+		"90" : {
+			"channel" : 53,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P53",
+				"location" : "purnell end",
+				"position" : "bottom"
+			}
+		},
+		"43" : {
+			"channel" : 53,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P53",
+				"location" : "purnell end",
+				"position" : "top"
+			}
+		},
+		"91" : {
+			"channel" : 54,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P54",
+				"location" : "purnell end",
+				"position" : "bottom"
+			}
+		},
+		"44" : {
+			"channel" : 54,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P54",
+				"location" : "purnell end",
+				"position" : "top"
+			}
+		},
+		"92" : {
+			"channel" : 55,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P55",
+				"location" : "purnell end",
+				"position" : "bottom"
+			}
+		},
+		"45" : {
+			"channel" : 55,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P55",
+				"location" : "purnell end",
+				"position" : "top"
+			}
+		},
+		"93" : {
+			"channel" : 56,
+			"type" : "CG2",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P56",
+				"location" : "purnell end",
+				"position" : "bottom"
+			}
+		},
+		"46" : {
+			"channel" : 56,
+			"type" : "CG2",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P56",
+				"location" : "purnell end",
+				"position" : "top"
+			}
+		},
+		"94" : {
+			"channel" : 57,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P57",
+				"location" : "purnell end",
+				"position" : "bottom"
+			}
+		},
+		"47" : {
+			"channel" : 57,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P57",
+				"location" : "purnell end",
+				"position" : "top"
+			}
+		},
+		"99" : {
+			"channel" : 1,
+			"type" : "CG2",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P1",
+				"location" : "gates end wall",
+				"position" : "bottom"
+			}
+		},
+		"95" : {
+			"channel" : 1,
+			"type" : "CG2",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P1",
+				"location" : "gates end wall",
+				"position" : "top"
+			}
+		},
+		"96" : {
+			"channel" : 2,
+			"type" : "CG2",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P2",
+				"location" : "gates end wall",
+				"position" : "top"
+			}
+		},
+		"100" : {
+			"channel" : 2,
+			"type" : "CG2",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P2",
+				"location" : "gates end wall",
+				"position" : "bottom"
+			}
+		},
+		"97" : {
+			"channel" : 3,
+			"type" : "CG2",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P1",
+				"location" : "gates end wall",
+				"position" : "top"
+			}
+		},
+		"101" : {
+			"channel" : 3,
+			"type" : "CG2",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P3",
+				"location" : "gates end wall",
+				"position" : "bottom"
+			}
+		},
+		"98" : {
+			"channel" : 4,
+			"type" : "CG2",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P4",
+				"location" : "gates end wall",
+				"position" : "top"
+			}
+		},
+		"102" : {
+			"channel" : 4,
+			"type" : "CG2",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P4",
+				"location" : "gates end wall",
+				"position" : "bottom"
+			}
+		},
+		"104" : {
+			"channel" : 5,
+			"type" : "CG3",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P5",
+				"location" : "gates end",
+				"position" : "bottom"
+			}
+		},
+		"103" : {
+			"channel" : 5,
+			"type" : "CG3",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P5",
+				"location" : "gates end",
+				"position" : "top"
+			}
+		},
+		"108" : {
+			"channel" : 6,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P6",
+				"location" : "gates end",
+				"position" : "bottom"
+			}
+		},
+		"105" : {
+			"channel" : 6,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P6",
+				"location" : "gates end",
+				"position" : "top"
+			}
+		},
+		"109" : {
+			"channel" : 7,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P7",
+				"location" : "gates end",
+				"position" : "bottom"
+			}
+		},
+		"106" : {
+			"channel" : 7,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P7",
+				"location" : "gates end",
+				"position" : "top"
+			}
+		},
+		"110" : {
+			"channel" : 8,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P8",
+				"location" : "gates end",
+				"position" : "bottom"
+			}
+		},
+		"107" : {
+			"channel" : 8,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P8",
+				"location" : "gates end",
+				"position" : "top"
+			}
+		},
+		"113" : {
+			"channel" : 9,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P9",
+				"location" : "gates end",
+				"position" : "bottom"
+			}
+		},
+		"111" : {
+			"channel" : 9,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P9",
+				"location" : "gates end",
+				"position" : "top"
+			}
+		},
+		"114" : {
+			"channel" : 10,
+			"type" : "CG3",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P10",
+				"location" : "gates end",
+				"position" : "bottom"
+			}
+		},
+		"112" : {
+			"channel" : 10,
+			"type" : "CG3",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P10",
+				"location" : "gates end",
+				"position" : "top"
+			}
+		},
+		"48" : {
+			"channel" : 11,
+			"type" : "CG2",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P11",
+				"location" : "gates end",
+				"position" : "bottom"
+			}
+		},
+		"36" : {
+			"channel" : 11,
+			"type" : "CG3",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P11",
+				"location" : "gates end",
+				"position" : "top"
+			}
+		},
+		"49" : {
+			"channel" : 12,
+			"type" : "CG3",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P12",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"37" : {
+			"channel" : 12,
+			"type" : "CG3",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P12",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"50" : {
+			"channel" : 13,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P13",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"1" : {
+			"channel" : 13,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P13",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"51" : {
+			"channel" : 14,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P14",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"2" : {
+			"channel" : 14,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P14",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"52" : {
+			"channel" : 15,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P15",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"3" : {
+			"channel" : 15,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P15",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"53" : {
+			"channel" : 16,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P16",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"4" : {
+			"channel" : 16,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P16",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"54" : {
+			"channel" : 17,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P17",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"5" : {
+			"channel" : 17,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P17",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"55" : {
+			"channel" : 18,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P18",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"6" : {
+			"channel" : 18,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P18",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"56" : {
+			"channel" : 19,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P19",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"7" : {
+			"channel" : 19,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P19",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"57" : {
+			"channel" : 20,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P20",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"8" : {
+			"channel" : 20,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P20",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"58" : {
+			"channel" : 21,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P20",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"9" : {
+			"channel" : 21,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P21",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"59" : {
+			"channel" : 22,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P22",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"10" : {
+			"channel" : 22,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P22",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"60" : {
+			"channel" : 23,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P23",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"11" : {
+			"channel" : 23,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P23",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"61" : {
+			"channel" : 24,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P24",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		},
+		"12" : {
+			"channel" : 24,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P24",
+				"location" : "bridge",
+				"position" : "top"
+			}
+		},
+		"62" : {
+			"channel" : 25,
+			"type" : "CG4",
+			"parameters" : {
+				"blue" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"green" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				},
+				"red" : {
+					"type" : "float",
+					"val" : 0,
+					"default" : 0,
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"metadata" : {
+				"group" : "P25",
+				"location" : "bridge",
+				"position" : "bottom"
+			}
+		}
+	},
+	"patches" : {
+		"DMX1" : {
+			"type" : "DMXPatch",
+			"interfaces" : {
+				"Gates End" : {
+					"type" : "KiNetInterface",
+					"host" : "10.1.0.5",
+					"port" : 6038,
+					"protocolType" : 0
+				},
+				"Gates End Bottom" : {
+					"type" : "KiNetInterface",
+					"host" : "10.1.0.3",
+					"port" : 6038,
+					"protocolType" : 0
+				},
+				"Gates End Top" : {
+					"type" : "KiNetInterface",
+					"host" : "10.1.0.1",
+					"port" : 6038,
+					"protocolType" : 0
+				},
+				"Purnell End Bottom" : {
+					"type" : "KiNetInterface",
+					"host" : "10.1.0.4",
+					"port" : 6038,
+					"protocolType" : 0
+				},
+				"Purnell End Top" : {
+					"type" : "KiNetInterface",
+					"host" : "10.1.0.2",
+					"port" : 6038,
+					"protocolType" : 0
+				}
+			},
+			"universes" : {
+				"Gates End" : 5,
+				"Gates End Bottom" : 3,
+				"Gates End Top" : 1,
+				"Purnell End Bottom" : 4,
+				"Purnell End Top" : 2
+			},
+			"deviceMaps" : {
+				"CG2" : {
+					"blue" : [
+						2,
+						"RGB_REPEAT2"
+					],
+					"green" : [
+						1,
+						"RGB_REPEAT2"
+					],
+					"red" : [
+						0,
+						"RGB_REPEAT2"
+					]
+				},
+				"CG3" : {
+					"blue" : [
+						2,
+						"RGB_REPEAT3"
+					],
+					"green" : [
+						1,
+						"RGB_REPEAT3"
+					],
+					"red" : [
+						0,
+						"RGB_REPEAT3"
+					]
+				},
+				"CG4" : {
+					"blue" : [
+						2,
+						"RGB_REPEAT4"
+					],
+					"green" : [
+						1,
+						"RGB_REPEAT4"
+					],
+					"red" : [
+						0,
+						"RGB_REPEAT4"
+					]
+				},
+				"dimmer" : {
+					"intensity" : [
+						0,
+						"FLOAT_TO_SINGLE"
+					]
+				}
+			},
+			"devicePatch" : {
+				"1" : {
+					"mapType" : "CG4",
+					"addr" : 18,
+					"universe" : 1
+				},
+				"10" : {
+					"mapType" : "CG4",
+					"addr" : 126,
+					"universe" : 1
+				},
+				"100" : {
+					"mapType" : "CG2",
+					"addr" : 12,
+					"universe" : 5
+				},
+				"101" : {
+					"mapType" : "CG2",
+					"addr" : 24,
+					"universe" : 5
+				},
+				"102" : {
+					"mapType" : "CG2",
+					"addr" : 36,
+					"universe" : 5
+				},
+				"103" : {
+					"mapType" : "CG3",
+					"addr" : 48,
+					"universe" : 5
+				},
+				"105" : {
+					"mapType" : "CG4",
+					"addr" : 66,
+					"universe" : 5
+				},
+				"106" : {
+					"mapType" : "CG4",
+					"addr" : 90,
+					"universe" : 5
+				},
+				"107" : {
+					"mapType" : "CG4",
+					"addr" : 114,
+					"universe" : 5
+				},
+				"108" : {
+					"mapType" : "CG4",
+					"addr" : 78,
+					"universe" : 5
+				},
+				"109" : {
+					"mapType" : "CG4",
+					"addr" : 102,
+					"universe" : 5
+				},
+				"11" : {
+					"mapType" : "CG4",
+					"addr" : 138,
+					"universe" : 1
+				},
+				"110" : {
+					"mapType" : "CG4",
+					"addr" : 126,
+					"universe" : 5
+				},
+				"111" : {
+					"mapType" : "CG4",
+					"addr" : 138,
+					"universe" : 5
+				},
+				"112" : {
+					"mapType" : "CG3",
+					"addr" : 162,
+					"universe" : 5
+				},
+				"113" : {
+					"mapType" : "CG4",
+					"addr" : 150,
+					"universe" : 5
+				},
+				"114" : {
+					"mapType" : "CG3",
+					"addr" : 171,
+					"universe" : 5
+				},
+				"12" : {
+					"mapType" : "CG4",
+					"addr" : 150,
+					"universe" : 1
+				},
+				"13" : {
+					"mapType" : "CG4",
+					"addr" : 162,
+					"universe" : 1
+				},
+				"14" : {
+					"mapType" : "CG4",
+					"addr" : 174,
+					"universe" : 1
+				},
+				"15" : {
+					"mapType" : "CG4",
+					"addr" : 186,
+					"universe" : 1
+				},
+				"16" : {
+					"mapType" : "CG4",
+					"addr" : 198,
+					"universe" : 1
+				},
+				"17" : {
+					"mapType" : "CG4",
+					"addr" : 210,
+					"universe" : 1
+				},
+				"18" : {
+					"mapType" : "CG4",
+					"addr" : 222,
+					"universe" : 1
+				},
+				"19" : {
+					"mapType" : "CG4",
+					"addr" : 234,
+					"universe" : 1
+				},
+				"2" : {
+					"mapType" : "CG4",
+					"addr" : 30,
+					"universe" : 1
+				},
+				"20" : {
+					"mapType" : "CG4",
+					"addr" : 246,
+					"universe" : 1
+				},
+				"21" : {
+					"mapType" : "CG4",
+					"addr" : 0,
+					"universe" : 2
+				},
+				"22" : {
+					"mapType" : "CG4",
+					"addr" : 12,
+					"universe" : 2
+				},
+				"23" : {
+					"mapType" : "CG4",
+					"addr" : 24,
+					"universe" : 2
+				},
+				"24" : {
+					"mapType" : "CG4",
+					"addr" : 36,
+					"universe" : 2
+				},
+				"25" : {
+					"mapType" : "CG4",
+					"addr" : 48,
+					"universe" : 2
+				},
+				"26" : {
+					"mapType" : "CG4",
+					"addr" : 60,
+					"universe" : 2
+				},
+				"27" : {
+					"mapType" : "CG4",
+					"addr" : 72,
+					"universe" : 2
+				},
+				"28" : {
+					"mapType" : "CG4",
+					"addr" : 86,
+					"universe" : 2
+				},
+				"29" : {
+					"mapType" : "CG4",
+					"addr" : 96,
+					"universe" : 2
+				},
+				"3" : {
+					"mapType" : "CG4",
+					"addr" : 42,
+					"universe" : 1
+				},
+				"30" : {
+					"mapType" : "CG4",
+					"addr" : 108,
+					"universe" : 2
+				},
+				"31" : {
+					"mapType" : "CG4",
+					"addr" : 120,
+					"universe" : 2
+				},
+				"32" : {
+					"mapType" : "CG4",
+					"addr" : 132,
+					"universe" : 2
+				},
+				"33" : {
+					"mapType" : "CG4",
+					"addr" : 144,
+					"universe" : 2
+				},
+				"34" : {
+					"mapType" : "CG4",
+					"addr" : 156,
+					"universe" : 2
+				},
+				"35" : {
+					"mapType" : "CG4",
+					"addr" : 168,
+					"universe" : 2
+				},
+				"36" : {
+					"mapType" : "CG3",
+					"addr" : 0,
+					"universe" : 1
+				},
+				"37" : {
+					"mapType" : "CG3",
+					"addr" : 9,
+					"universe" : 1
+				},
+				"38" : {
+					"mapType" : "CG3",
+					"addr" : 180,
+					"universe" : 2
+				},
+				"39" : {
+					"mapType" : "CG3",
+					"addr" : 189,
+					"universe" : 2
+				},
+				"4" : {
+					"mapType" : "CG4",
+					"addr" : 54,
+					"universe" : 1
+				},
+				"40" : {
+					"mapType" : "CG4",
+					"addr" : 198,
+					"universe" : 2
+				},
+				"41" : {
+					"mapType" : "CG4",
+					"addr" : 210,
+					"universe" : 2
+				},
+				"42" : {
+					"mapType" : "CG4",
+					"addr" : 222,
+					"universe" : 2
+				},
+				"43" : {
+					"mapType" : "CG4",
+					"addr" : 234,
+					"universe" : 2
+				},
+				"44" : {
+					"mapType" : "CG4",
+					"addr" : 246,
+					"universe" : 2
+				},
+				"45" : {
+					"mapType" : "CG4",
+					"addr" : 258,
+					"universe" : 2
+				},
+				"46" : {
+					"mapType" : "CG2",
+					"addr" : 270,
+					"universe" : 2
+				},
+				"47" : {
+					"mapType" : "CG4",
+					"addr" : 276,
+					"universe" : 2
+				},
+				"48" : {
+					"mapType" : "CG2",
+					"addr" : 0,
+					"universe" : 3
+				},
+				"49" : {
+					"mapType" : "CG3",
+					"addr" : 6,
+					"universe" : 3
+				},
+				"5" : {
+					"mapType" : "CG4",
+					"addr" : 66,
+					"universe" : 1
+				},
+				"50" : {
+					"mapType" : "CG4",
+					"addr" : 15,
+					"universe" : 3
+				},
+				"51" : {
+					"mapType" : "CG4",
+					"addr" : 27,
+					"universe" : 3
+				},
+				"52" : {
+					"mapType" : "CG4",
+					"addr" : 39,
+					"universe" : 3
+				},
+				"53" : {
+					"mapType" : "CG4",
+					"addr" : 51,
+					"universe" : 3
+				},
+				"54" : {
+					"mapType" : "CG4",
+					"addr" : 63,
+					"universe" : 3
+				},
+				"55" : {
+					"mapType" : "CG4",
+					"addr" : 75,
+					"universe" : 3
+				},
+				"56" : {
+					"mapType" : "CG4",
+					"addr" : 87,
+					"universe" : 3
+				},
+				"57" : {
+					"mapType" : "CG4",
+					"addr" : 99,
+					"universe" : 3
+				},
+				"58" : {
+					"mapType" : "CG4",
+					"addr" : 111,
+					"universe" : 3
+				},
+				"59" : {
+					"mapType" : "CG4",
+					"addr" : 123,
+					"universe" : 3
+				},
+				"6" : {
+					"mapType" : "CG4",
+					"addr" : 78,
+					"universe" : 1
+				},
+				"60" : {
+					"mapType" : "CG4",
+					"addr" : 135,
+					"universe" : 3
+				},
+				"61" : {
+					"mapType" : "CG4",
+					"addr" : 147,
+					"universe" : 3
+				},
+				"62" : {
+					"mapType" : "CG4",
+					"addr" : 159,
+					"universe" : 3
+				},
+				"63" : {
+					"mapType" : "CG4",
+					"addr" : 171,
+					"universe" : 3
+				},
+				"64" : {
+					"mapType" : "CG4",
+					"addr" : 183,
+					"universe" : 3
+				},
+				"65" : {
+					"mapType" : "CG4",
+					"addr" : 195,
+					"universe" : 3
+				},
+				"66" : {
+					"mapType" : "CG4",
+					"addr" : 207,
+					"universe" : 3
+				},
+				"67" : {
+					"mapType" : "CG4",
+					"addr" : 219,
+					"universe" : 3
+				},
+				"68" : {
+					"mapType" : "CG4",
+					"addr" : 231,
+					"universe" : 3
+				},
+				"69" : {
+					"mapType" : "CG4",
+					"addr" : 243,
+					"universe" : 3
+				},
+				"7" : {
+					"mapType" : "CG4",
+					"addr" : 90,
+					"universe" : 1
+				},
+				"70" : {
+					"mapType" : "CG4",
+					"addr" : 0,
+					"universe" : 4
+				},
+				"71" : {
+					"mapType" : "CG4",
+					"addr" : 12,
+					"universe" : 4
+				},
+				"72" : {
+					"mapType" : "CG4",
+					"addr" : 24,
+					"universe" : 4
+				},
+				"73" : {
+					"mapType" : "CG4",
+					"addr" : 36,
+					"universe" : 4
+				},
+				"74" : {
+					"mapType" : "CG4",
+					"addr" : 48,
+					"universe" : 4
+				},
+				"75" : {
+					"mapType" : "CG4",
+					"addr" : 60,
+					"universe" : 4
+				},
+				"76" : {
+					"mapType" : "CG4",
+					"addr" : 72,
+					"universe" : 4
+				},
+				"77" : {
+					"mapType" : "CG4",
+					"addr" : 84,
+					"universe" : 4
+				},
+				"78" : {
+					"mapType" : "CG4",
+					"addr" : 96,
+					"universe" : 4
+				},
+				"79" : {
+					"mapType" : "CG4",
+					"addr" : 108,
+					"universe" : 4
+				},
+				"8" : {
+					"mapType" : "CG4",
+					"addr" : 102,
+					"universe" : 1
+				},
+				"80" : {
+					"mapType" : "CG4",
+					"addr" : 120,
+					"universe" : 4
+				},
+				"81" : {
+					"mapType" : "CG4",
+					"addr" : 132,
+					"universe" : 4
+				},
+				"82" : {
+					"mapType" : "CG4",
+					"addr" : 144,
+					"universe" : 4
+				},
+				"83" : {
+					"mapType" : "CG4",
+					"addr" : 156,
+					"universe" : 4
+				},
+				"84" : {
+					"mapType" : "CG4",
+					"addr" : 168,
+					"universe" : 4
+				},
+				"85" : {
+					"mapType" : "CG2",
+					"addr" : 189,
+					"universe" : 4
+				},
+				"86" : {
+					"mapType" : "CG3",
+					"addr" : 180,
+					"universe" : 4
+				},
+				"87" : {
+					"mapType" : "CG4",
+					"addr" : 195,
+					"universe" : 4
+				},
+				"88" : {
+					"mapType" : "CG4",
+					"addr" : 207,
+					"universe" : 4
+				},
+				"89" : {
+					"mapType" : "CG4",
+					"addr" : 219,
+					"universe" : 4
+				},
+				"9" : {
+					"mapType" : "CG4",
+					"addr" : 114,
+					"universe" : 1
+				},
+				"90" : {
+					"mapType" : "CG4",
+					"addr" : 231,
+					"universe" : 4
+				},
+				"91" : {
+					"mapType" : "CG4",
+					"addr" : 243,
+					"universe" : 4
+				},
+				"92" : {
+					"mapType" : "CG4",
+					"addr" : 255,
+					"universe" : 4
+				},
+				"93" : {
+					"mapType" : "CG4",
+					"addr" : 267,
+					"universe" : 4
+				},
+				"94" : {
+					"mapType" : "CG4",
+					"addr" : 273,
+					"universe" : 4
+				},
+				"95" : {
+					"mapType" : "CG2",
+					"addr" : 6,
+					"universe" : 5
+				},
+				"96" : {
+					"mapType" : "CG2",
+					"addr" : 18,
+					"universe" : 5
+				},
+				"97" : {
+					"mapType" : "CG2",
+					"addr" : 30,
+					"universe" : 5
+				},
+				"98" : {
+					"mapType" : "CG2",
+					"addr" : 42,
+					"universe" : 5
+				},
+				"99" : {
+					"mapType" : "CG2",
+					"addr" : 0,
+					"universe" : 5
+				}
+			}
+		}
+	}
+}

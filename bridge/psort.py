@@ -127,6 +127,9 @@ class Psort:
     # Possible values: single, zipper, rightleft
     rowmode = 'single'
 
+    # rig files
+    rigBool = False
+    rig = []
 
     # Count number of update steps
     stepcount = 0
@@ -194,8 +197,15 @@ class Psort:
     methods = cycles.keys()
 
     # n determines number of elements
+    # support rig files
     def __init__(self, n=48, order='forward', saturation = 0, value = 0,
-                 subdivisions = 1, bordercolor = '', nodisplay = False):
+                 subdivisions = 1, bordercolor = '', nodisplay = False,
+                 rigBool = False, rig = []):
+        # just pass to panel
+        self.rigBool = rigBool
+        self.rig = rig
+        print rigBool
+
         self.ecount = n
         self.rowmode = 'single'
         self.cgranularity = 1
@@ -210,7 +220,8 @@ class Psort:
         self.lastorder = order
         cols = self.rcount/2
         self.panel = panel.Panel(rows = 2, cols = cols,
-                                 rwidth = int(1440/cols), nodisplay = nodisplay)
+                                 rwidth = int(1440/cols), nodisplay = nodisplay,
+                                 rigBool = self.rigBool, rig = self.rig)
         if saturation > 0:
             self.spectrum_s = saturation
         if value > 0:

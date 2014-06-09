@@ -1,6 +1,6 @@
 from Tkinter import *
 import hsv
-
+import lumiversepython
 
 # Are two values within some tolerance of each other?
 def outofrange(x, y, delta):
@@ -33,6 +33,10 @@ class Panel:
     # The set of rectangles, in row-major order with (0,0) being top left
     items = []
 
+    # support rig
+    rigBool = False
+    rig = []
+
     # Determine index of given rectangle
     def index(self, r, c):
         return r * self.cols + c
@@ -46,7 +50,14 @@ class Panel:
         y = rheight * r
         return (x, y)
 
-    def __init__(self, rows=0, cols=0, rwidth = 0, rheight = 0, nodisplay = False, queuevals = False):
+    def __init__(self, rows=0, cols=0, rwidth = 0, rheight = 0, 
+                    nodisplay = False, queuevals = False,
+                    rigBool = False, rig = []):
+        # get from psort
+        self.rigBool = rigBool
+        print rigBool
+        self.rig = rig
+
         if rows > 0:
             self.rows = rows
         if cols > 0:
@@ -139,14 +150,36 @@ class Panel:
          if (self.display and
              r >= 0 and r+rowcount <= self.rows and
              c >= 0 and c+colcount <= self.cols):
-              for row in range(r, r+rowcount):
-                   for col in range(c, c+colcount):
-                        index = self.index(row, col)
-                        (x, y) = self.xypos(row, col)
-                        w = self.rwidth
-                        h = self.rheight
-                        rect = self.items[index]
-                        self.canvas.itemconfig(rect, fill = color)
+               #add rig support
+               if self.rigBool:
+                   # need to get channel number and then paint color
+                   for row in range(r, r+rowcount):
+                        for col in range(c, c+colcount):
+                            index = self.index(row, col)
+                            (x, y) = self.xypos(row, col)
+                            w = self.rwidth
+                            h = self.rheight
+                            rect = self.items[index]
+                            self.canvas.itemconfig(rect, fill = color)
+                            #send the color to bridge
+                            (r,g,b) = hsv.string2rgb(color)
+                            #convert to 1.0
+                            nr = float(r)/255.0
+                            ng = float(g)/255.0
+                            nb = float(b)/255.0
+                            #send each color
+                            self.rig.getChannel(index).setParam("red",nr)
+                            self.rig.getChannel(index).setParam("green",ng)
+                            self.rig.getChannel(index).setParam("blue",nb)
+               else:
+                   for row in range(r, r+rowcount):
+                        for col in range(c, c+colcount):
+                            index = self.index(row, col)
+                            (x, y) = self.xypos(row, col)
+                            w = self.rwidth
+                            h = self.rheight
+                            rect = self.items[index]
+                            self.canvas.itemconfig(rect, fill = color)
          return 1
 
     # Like paint, except given entire list of tuples
