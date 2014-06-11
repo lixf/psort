@@ -29,8 +29,9 @@ while true; do
   case $CHOICE in
     oneColor ) python oneColor.py ; echo "oneColor Done";;
     goThru   ) python goThru.py ; echo "goThru Done";;
+    evenOdd  ) python evenOdd.py ; echo "evenOdd Done";;
     graphic  ) python $PSORT_PATH/bridge.py ; exit;;
-    sort     ) python $PSORT_PATH/bridge.py -r $JSON   ; exit;;
+    sort     ) python $PSORT_PATH/bridge.py -r $JSON ; exit;;
     exit     ) exit;;
     * ) echo "options: allWhite/goThru/graphic/sort";;
   esac
