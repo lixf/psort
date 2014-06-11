@@ -286,6 +286,8 @@ def run(name, args):
     cols = 90
     border = 0
     subdivisions = 1
+    rigBool = False
+    rig = []
     optlist, args = getopt.getopt(args, 'hc:r:s:b:')
     for (opt,val) in optlist:
         if opt == '-h':
@@ -310,7 +312,7 @@ def run(name, args):
     if (subdivisions > 1):
         print "Subdivide rectangle into % d subrectangles.  Border color = %f" % (subdivisions, border)
     root = Tk()
-
+    
     bridge = Bridge(root, cols, subdivisions, border, rigBool, rig)
     try:
         root.mainloop()
