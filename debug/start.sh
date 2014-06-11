@@ -33,7 +33,7 @@ while true; do
     graphic  ) python $PSORT_PATH/bridge.py ; exit;;
     sort     ) python $PSORT_PATH/bridge.py -r $JSON ; exit;;
     exit     ) exit;;
-    * ) echo "options: allWhite/goThru/graphic/sort";;
+    * ) echo "options: oneColor/goThru/evenOdd/graphic/sort";;
   esac
 done
 
