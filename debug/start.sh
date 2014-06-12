@@ -10,8 +10,8 @@
 
 ## Edit on different machine
 ## Points to executables
-LUMIVERSE_PATH='/home/xiaofan/Work/research/Lumiverse/Lumiverse/build/LumiverseCore'
-PSORT_PATH='/home/xiaofan/Work/research/pysort/psort/bridge'
+LUMIVERSE_PATH='/home/teacher/Lumiverse/Lumiverse/Lumiverse/build/LumiverseCore'
+PSORT_PATH='/home/teacher/psort/psort/bridge'
 ## support different json files
 JSONFILE='PauschBridge.json'
 
