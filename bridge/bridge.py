@@ -12,6 +12,8 @@ import getopt
 import sys
 #include Lumiverse here
 import lumiversepython as lum
+#for sleep
+import time
 
 class Bridge:
     # added to support bridge mode
@@ -206,7 +208,16 @@ class Bridge:
             order = self.sorter.chooseorder(method=method)
             self.toorderlabel.config(text=order)
             self.sorter.runsort(method=method, order=order, time = self.time, pause=2000)
-
+	#    if self.rigBool :
+	#	## stay sorted for 2 secs
+	#	time.sleep(2)
+	#	## turn black
+	#	self.rig.getAllDevices().setParam("red",0)
+	#	self.rig.getAllDevices().setParam("green",0)
+	#	self.rig.getAllDevices().setParam("blue",0)
+	#	time.sleep(0.5)
+	#	## continue
+		
     def stop(self):
         self.keepgoing = False
         self.running = False
