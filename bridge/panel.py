@@ -211,28 +211,9 @@ class Panel:
                         nextstate = map (lambda c1, c2:
                                          hsv.blend(c2, c1, float(i) / steps),
                                          startstate, targetstate)
-			#if self.regBool :	
-			#	## update the bridge here
-                        #	indices = range(1,57)
-			#	(rlist,glist,blist) = map (lambda color:
-			#			      	   hsv.string2rgb(color),nextstate)
-			#	nr = map (lambda r: float(r)/255.0,rlist)
-			#	ng = map (lambda g: float(g)/255.0,glist)
-			#	nb = map (lambda b: float(b)/255.0,blist)
-			#	
-			#	map (lambda item,r:
-			#	    self.rig.getChannel(index).setParam("red",r),
-			#	    indices, nr)
-			#	map (lambda item,g:
-			#	    self.rig.getChannel(index).setParam("green",g),
-			#	    indices, ng)
-			#	map (lambda item,b:
-			#	    self.rig.getChannel(index).setParam("blue",b),
-			#	    indices, nb)
-			## update the gui
-			map (lambda item, color:
+                        map (lambda item, color:
                              self.canvas.itemconfig(item, fill = color),
-                             self.items,nextstate)
+                             self.items, nextstate)
                         i = i+1
                         self.update(transitiondelta)
                         delay = delay - transitiondelta
