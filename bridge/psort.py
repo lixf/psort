@@ -4,6 +4,7 @@ import math
 from collections import deque
 import panel
 import coeffs
+import time as timeLib
 
 # Create a random permutation of values 0 through n-1
 def randperm(n):
@@ -767,6 +768,11 @@ class Psort:
         if self.cycle < 1:
             self.cycle = 1
         self.stepcount = 0
+	
+	#debug
+	print "time = %d ; pause = %d" %(time,pause)	
+
+
 
         if method == 'evenodd':
             self.evenoddsort()
@@ -802,6 +808,15 @@ class Psort:
             self.accelerate = False
             self.showsort()
         self.pause(pause)
+	if self.rigBool :
+	    ## stay sorted for 2 secs
+	    timeLib.sleep(2)
+	    ## turn black
+	    self.rig.getAllDevices().setParam("red",0)
+	    self.rig.getAllDevices().setParam("green",0)
+	    self.rig.getAllDevices().setParam("blue",0)
+	    timeLib.sleep(1)
+	    ## continue
 
     def choosemethod(self, mode = 'none'):
         while True:
